@@ -1,9 +1,12 @@
+.logo {
+  height: 20px;
+}
 .svg-icon {
   width: 20px;
 }
 
 .triplink {
   width: 30%;
-  text-shadow: 0px 0px 5px #030303;
-
+  box-shadow: 8px 8px 15px rgba(0,0,0,0.5);
+  background-color: transparent;
 }

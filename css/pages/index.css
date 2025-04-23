@@ -1,7 +1,7 @@
 /* ---------- Intro Container ---------- */
 .container-intro {
   text-align: start;
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 #underscore {
@@ -51,10 +51,6 @@
 
 .content-right {
   width: 100%;
-  h2 {
-    text-decoration-line: underline;
-    text-decoration-color: #1EDD88;
-  }
   h5 {
     margin-bottom: 0;
   }
@@ -75,15 +71,19 @@
   align-items: center;
   display: flex;
   margin-bottom: 0.5rem;
-  h4 {
-  padding-left: 1rem;
-  }
 }
 
 .vertical-line {
-  width: 2px;
+  width: 1.5px;
   height: 100%;
-  background-color: #1EDD88;
+  background-color: #c12921;
+  margin-right: 25px;
+}
+
+.vertical-line-orange {
+  width: 1.5px;
+  height: 100%;
+  background-color: #ffa101;
   margin-right: 25px;
 }
 
@@ -95,7 +95,7 @@
   justify-content: space-between;
   margin-top: 50px;
   background-color: #a8e0ba;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 1rem;
 }
 
@@ -110,28 +110,45 @@
 }
 
 .scroll-bar-intro {
-  padding-top: 100px;
+  padding-top: 75px;
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.github-linkedin {
+  padding-top: 75px;
+  display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: end;
+
 }
 
-.scroll-bar-left {
-  padding-left: 0.5rem;
-  display: flex;
-  align-items: center;
-  p {
-  padding-left: 1rem;
+.github-linkedin i {
+  margin-right: 0.5rem; /* or adjust as needed */
+  margin-left: 1rem;
+}
+
+
+/* ----------- Media queries for responsiveness ----------- */
+@media (min-width: 500px) {
+  .content-left {
+    display: flex;
+    width: 25%;
   }
-}
-
-.scroll-bar-right {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  p {
-    padding-left: 0.3rem;
-    padding-right: 1rem;
+  .content-right {
+    width: 75%;
+  }
+  .section-number {
+    display: inline;
     }
+  #web-developer {
+    line-height: 1;
+  }
+  #underscore {
+    margin-bottom: -20px;
+  }
+
+@media (min-width: 900px) {
+}
 }
