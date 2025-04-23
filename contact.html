@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zoë van Ree</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap" rel="stylesheet">
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <script src="lib/partials.js"></script>
+
+  <!-- Header-->
+  <my-header></my-header>
+
+  <div>
+    <section id="contact" class="contact">
+      <h2>Neem contact op</h2>
+      <form action="#" method="POST">
+        <div class="contact-input">
+          <input type="text" name="name" placeholder="Naam" required>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="contact-text">
+          <textarea name="message" placeholder="Bericht..." required></textarea>
+        </div>
+        <button type="submit">Verzend!</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <my-footer></my-footer>
+
+  <script src="lib/index.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* Container Intro */
+.intro {
+  text-align: start;
+  padding-top: 200px;
+}
+
+#underscore {
+    width: 40px;
+    height: 5px;
+    margin-bottom: -20px;
+    background-color: black;
+}
+
+#web-developer {
+  letter-spacing: -2px;
+  font-size: 5rem;
+  font-weight: 400;
+  padding-left: 0;
+  font-family: 'Exo 2', sans-serif;
+  color: #14e956;
+  text-shadow: 0px 0px 5px #14e956;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#based-in-amsterdam {
+  letter-spacing: -4px;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Containers Main */
+
+.container-main {
+  display: flex;
+  h2 {
+    text-decoration-line: underline;
+    text-decoration-color: #1EDD88;
+  }
+}
+
+.container-left {
+  width: 25%;
+}
+
+.container-right {
+  width: 75%;
+  h4 {
+    margin: 0;
+  }
+}
+
+.triplink-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color: #a8e0ba;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.triplink {
+  width: 30%
+}
+
+.tech-stack {
+  padding-top: 15px;
+}
+
+/* Scroll Bar */
+
+.scroll-bar {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  p {
+    padding-left: 1rem;
+    }
+}
+
+.scroll-bar-intro {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.scroll-bar-left {
+  padding-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  p {
+  padding-left: 1rem;
+  }
+}
+
+.scroll-bar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  p {
+    padding-left: 0.3rem;
+    padding-right: 1rem;
+    }
+}

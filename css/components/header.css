@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 100px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-item {
+  margin: 0px 10px;
+  padding: 4px 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  position: relative; /* Position relative for pseudo-element */
+}
+
+.nav-link::after {
+  content: ''; /* Empty content for pseudo-element */
+  position: absolute; /* Position pseudo-element absolutely */
+  width: 100%; /* Full width of parent element */
+  height: 2px; /* Height of the underline */
+  bottom: 0; /* Position at the bottom of the text */
+  left: 0; /* Start from the left */
+  background-color: #14e956; /* Color of the underline */
+  transform: scaleX(0); /* Initially hide the underline */
+  transform-origin: bottom left; /* Start animation from the left */
+  transition: transform 0.3s ease-out; /* Smooth transition effect */
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1); /* Expand underline on hover */
+}
+
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: black;
+}
+
+/* Responsive style */
+@media (max-width: 540px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
