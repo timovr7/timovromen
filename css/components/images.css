@@ -5,8 +5,11 @@
   width: 20px;
 }
 
-.triplink {
-  width: 30%;
-  box-shadow: 8px 8px 15px rgba(0,0,0,0.5);
-  background-color: transparent;
+.triplink-main {
+  width: 100%;
+  border: 0.5px solid #ffa101;
+}
+
+.triplink-phone {
+  width: 50%;
 }

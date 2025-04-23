@@ -14,6 +14,7 @@
 @import url("pages/index.css");
 
 
+
 /* ---------- General style ----------- */
 body {
   margin: 0 auto;
@@ -37,11 +38,15 @@ a {
   color: inherit;
 }
 
-img {
-  border-radius: 1rem;
-}
-
 .spaced {
   text-align: justify;
   text-justify: inter-character;
+}
+
+/* ---------- Colors ----------- */
+html {
+  color: #14e956;
+  color: #c12921;
+  color: #1EDD88;
+  color: #ffa101;
 }

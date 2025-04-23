@@ -94,9 +94,16 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: #a8e0ba;
   border-radius: 0.5rem;
   padding: 1rem;
+}
+
+.triplink-container-left {
+  display: flex;
+}
+
+.triplink-container-right {
+  display: flex;
 }
 
 /*  ---------- Scroll Bar  ---------- */
