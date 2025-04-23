@@ -7,23 +7,28 @@
 @import url("components/cards.css");
 @import url("components/footer.css");
 @import url("components/header.css");
+@import url("components/images.css");
 
 /* Importing all pages CSS files */
 @import url("pages/index.css");
 
+
+/* ---------- General style ----------- */
 body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 1.2rem;
   max-width: 1200px;
   min-height: 100vh;
 }
 
-.container {
-  margin: 50px 20px;
-  max-width: 100%;
-  /* background-color: rgb(235, 235, 223); */
+.website-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 a {
@@ -35,24 +40,30 @@ img {
   border-radius: 1rem;
 }
 
-
 .spaced {
   text-align: justify;
   text-justify: inter-character;
 }
 
-.italic {
-  font-style: italic;
-}
-
-/* Media queries for responsiveness */
+/* ----------- Media queries for responsiveness ----------- */
 @media (min-width: 500px) {
-  .container {
-    width: 95%;
+  .content-left {
+    display: flex;
+    width: 25%;
   }
-}
+  .content-right {
+    width: 75%;
+  }
+  .section-number {
+    display: inline;
+    }
+  #web-developer {
+    line-height: 1;
+  }
+  #underscore {
+    margin-bottom: -20px;
+  }
+
 @media (min-width: 900px) {
-  .container {
-    width: 95%;
-  }
+}
 }

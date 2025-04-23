@@ -1,13 +1,12 @@
-/* Container Intro */
-.intro {
+/* ---------- Intro Container ---------- */
+.container-intro {
   text-align: start;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 #underscore {
     width: 40px;
     height: 5px;
-    margin-bottom: -20px;
     background-color: black;
 }
 
@@ -19,37 +18,76 @@
   font-family: 'Exo 2', sans-serif;
   color: #14e956;
   text-shadow: 0px 0px 5px #14e956;
+  line-height: 0.7;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
 
 #based-in-amsterdam {
+  margin: 0;
   letter-spacing: -4px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* Containers Main */
+/* ---------- Sections Containers  ---------- */
 
-.container-main {
+.container-section {
+  margin-top: 8rem;
+}
+
+.container-section-content {
   display: flex;
+}
+
+.content-left {
+  display: none;
+}
+
+.center {
+  justify-content: end;
+}
+
+.content-right {
+  width: 100%;
   h2 {
     text-decoration-line: underline;
     text-decoration-color: #1EDD88;
   }
-}
-
-.container-left {
-  width: 25%;
-}
-
-.container-right {
-  width: 75%;
-  h4 {
-    margin: 0;
+  h5 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
 }
+
+.section-number {
+  display: none;
+}
+
+/*  ---------- Education Section  ---------- */
+
+.module-title {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-bottom: 0.5rem;
+  h4 {
+  padding-left: 1rem;
+  }
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  background-color: #1EDD88;
+  margin-right: 25px;
+}
+
+/*  ---------- Projects Section  ---------- */
 
 .triplink-container {
   display: flex;
@@ -61,16 +99,7 @@
   padding: 1rem;
 }
 
-.triplink {
-  width: 30%
-}
-
-.tech-stack {
-  padding-top: 15px;
-}
-
-/* Scroll Bar */
-
+/*  ---------- Scroll Bar  ---------- */
 .scroll-bar {
   padding-top: 50px;
   display: flex;
@@ -85,6 +114,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .scroll-bar-left {
