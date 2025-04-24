@@ -91,20 +91,26 @@
 
 .triplink-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 50px;
-  border-radius: 0.5rem;
-  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem
 }
 
 .triplink-container-left {
   display: flex;
+  justify-content: space-evenly;
+  background-color: #d5e6c8;
+
+  height: 100%;
 }
 
 .triplink-container-right {
   display: flex;
+  justify-content: space-evenly;
+  background-color: #d5e6c8;
+  height: 100%;
 }
+
+
 
 /*  ---------- Scroll Bar  ---------- */
 .scroll-bar {
@@ -154,6 +160,18 @@
   }
   #underscore {
     margin-bottom: -20px;
+  }
+  .triplink-container {
+    flex-wrap: nowrap;
+    gap: 0;
+    margin-top: 2rem;
+  }
+  .triplink-container-left {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+  }
+  .triplink-container-right {
+    margin-left: 1.5rem;
   }
 
 @media (min-width: 900px) {
