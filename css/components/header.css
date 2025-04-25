@@ -1,9 +1,9 @@
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
   height: 100px;
+  max-width: 1200px;
 }
 
 .nav-menu {
@@ -45,7 +45,7 @@
 .hamburger {
   display: none;
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: 0.2rem;
 }
 
 .bar {

@@ -11,20 +11,20 @@
 @import url("components/section-title.css");
 
 /* Importing all pages CSS files */
-@import url("pages/index.css");
+@import url("index.css");
 
 
 
 /* ---------- General style ----------- */
 body {
-  margin: 0 auto;
-  padding: 0;
-  font-family: 'Roboto Mono', sans-serif;
-  max-width: 1200px;
   min-height: 100vh;
+  background: #F3FBF4;
+  font-family: 'Roboto Mono', sans-serif;
 }
 
-.website-content {
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -41,6 +41,10 @@ a {
 .spaced {
   text-align: justify;
   text-justify: inter-character;
+}
+
+.end {
+  justify-content: end;
 }
 
 /* ---------- Colors ----------- */

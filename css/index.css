@@ -1,13 +1,13 @@
 /* ---------- Intro Container ---------- */
 .container-intro {
   text-align: start;
-  padding-top: 130px;
+  padding-top: 140px;
 }
 
 #underscore {
-    width: 40px;
-    height: 5px;
-    background-color: black;
+  width: 40px;
+  height: 5px;
+  background-color: black;
 }
 
 #web-developer {
@@ -33,11 +33,11 @@
 
 /* ---------- Sections Containers  ---------- */
 
-.container-section {
+section {
   margin-top: 8rem;
 }
 
-.container-section-content {
+.section-content {
   display: flex;
 }
 
@@ -45,15 +45,13 @@
   display: none;
 }
 
-.center {
-  justify-content: end;
-}
-
 .content-right {
   width: 100%;
+
   h5 {
     margin-bottom: 0;
   }
+
   p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -69,7 +67,6 @@
 .module-title {
   display: flex;
   align-items: center;
-  display: flex;
   margin-bottom: 0.5rem;
 }
 
@@ -92,45 +89,61 @@
 .triplink-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem
+  gap: 2rem;
 }
 
 .triplink-container-left {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  background-color: #d5e6c8;
+  height: 100%;
+  gap: 1rem;
+}
 
+.triplink-container-left-phones {
+  display: flex;
+  justify-content: space-between;
   height: 100%;
 }
 
 .triplink-container-right {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  background-color: #d5e6c8;
+  height: 100%;
+  gap: 1rem
+}
+
+.triplink-container-right-phones {
+  display: flex;
+  justify-content: space-between;
   height: 100%;
 }
 
 
 
+
+
 /*  ---------- Scroll Bar  ---------- */
 .scroll-bar {
-  padding-top: 50px;
+  padding-top: 75px;
   display: flex;
   align-items: center;
+
   p {
     padding-left: 1rem;
-    }
+  }
 }
 
 .scroll-bar-intro {
-  padding-top: 75px;
+  padding-top: 100px;
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
 .github-linkedin {
-  padding-top: 75px;
+  padding-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -138,7 +151,7 @@
 }
 
 .github-linkedin i {
-  margin-right: 0.5rem; /* or adjust as needed */
+  margin-right: 0.5rem;
   margin-left: 1rem;
 }
 
@@ -149,31 +162,40 @@
     display: flex;
     width: 25%;
   }
+
   .content-right {
     width: 75%;
   }
+
   .section-number {
     display: inline;
-    }
+  }
+
   #web-developer {
     line-height: 1;
   }
+
   #underscore {
     margin-bottom: -20px;
   }
+
   .triplink-container {
     flex-wrap: nowrap;
     gap: 0;
     margin-top: 2rem;
   }
+
   .triplink-container-left {
     margin-right: 1.5rem;
-    margin-top: 2rem;
   }
+
   .triplink-container-right {
     margin-left: 1.5rem;
   }
 
-@media (min-width: 900px) {
-}
+  .break {
+    display: none;
+  }
+
+  @media (min-width: 900px) {}
 }

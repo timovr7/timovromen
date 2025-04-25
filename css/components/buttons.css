@@ -17,52 +17,12 @@
   color: #1EDD88;
 }
 
-
-.project-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 3rem;
-}
-
-.project-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 0.75em 1.5em;
-  font-weight: 400;
-  text-decoration: none;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  width: 47%;
-}
-
-.heroku-btn {
-  background: linear-gradient(90deg, #430098 0%, #9f7aea 100%);
+.button {
+  background-color: #f1c578;
   color: #fff;
-}
-
-.heroku-btn:hover, .heroku-btn:focus {
-  background: linear-gradient(90deg, #9f7aea 0%, #430098 100%);
-  box-shadow: 0 4px 16px #9f7aea55;
-  transform: translateY(-2px) scale(1.04);
-}
-
-.github-btn {
-  background: #222;
-  color: #fff;
-}
-
-.github-btn:hover, .github-btn:focus {
-  background: #444;
-  box-shadow: 0 4px 16px #3335;
-  transform: translateY(-2px) scale(1.04);
-}
-
-.btn-icon {
-  margin-right: 0.5em;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1.3em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
 }
