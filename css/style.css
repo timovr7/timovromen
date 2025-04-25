@@ -25,6 +25,9 @@ body {
 .main-content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.website-content {
   margin-left: 20px;
   margin-right: 20px;
 }
