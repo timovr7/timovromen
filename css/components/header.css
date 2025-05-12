@@ -25,6 +25,10 @@
   position: relative; /* Position relative for pseudo-element */
 }
 
+.nav-link:hover {
+  color: black; /* Change color on hover */
+}
+
 .nav-link::after {
   content: ''; /* Empty content for pseudo-element */
   position: absolute; /* Position pseudo-element absolutely */
