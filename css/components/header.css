@@ -25,6 +25,10 @@
   position: relative; /* Position relative for pseudo-element */
 }
 
+.nav-link:focus {
+  color: black; /* Change color on focus */
+}
+
 .nav-link:hover {
   color: black; /* Change color on hover */
 }
