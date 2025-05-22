@@ -50,6 +50,42 @@
   transform: scaleX(1); /* Expand underline on hover */
 }
 
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  border-radius: 5px;
+  z-index: 10;
+  padding: 0;
+}
+
+.has-submenu:hover .submenu,
+.has-submenu:focus-within .submenu {
+  display: block;
+}
+
+.submenu li {
+  list-style: none;
+}
+
+.submenu .nav-link {
+  display: block;
+  padding: 0.7em 1.2em;
+}
+
+.submenu .nav-link:hover {
+
+  color: #111;
+}
 
 .hamburger {
   display: none;
