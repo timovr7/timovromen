@@ -40,8 +40,3 @@
     </div>
   </div>
 </div>
-
-<a class="scroll-bar" data-target="section4">
-  <i class="fa-solid fa-arrow-down"></i>
-  <p>continue</p>
-</a>

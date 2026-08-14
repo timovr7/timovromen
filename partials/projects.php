@@ -67,7 +67,7 @@
             tourists can connect with local guides all over the world.</p>
         </div>
 
-        <div class="project-link project-link--bootcamp">
+        <div class="mb-4 mb-md-0 project-link project-link--bootcamp">
           <span>Check out on GitHub</span>
           <a href="https://github.com/timovr7/TripLink" target="_blank" rel="noopener noreferrer"
             aria-label="TripLink on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
@@ -92,7 +92,3 @@
 
   </div>
 </div>
-
-<a class="scroll-bar" data-target="section5"><i class="fa-solid fa-arrow-down"></i>
-  <p>continue</p>
-</a>

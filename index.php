@@ -51,21 +51,19 @@
       <!-- PARTIAL - EDUCATION -->
       <?php require __DIR__ . '/partials/education.php'; ?>
 
-      <!-- Scrollbar UP -->
-      <a class="scroll-bar" data-target="main-content">
-        <i class="fa-solid fa-arrow-up"></i>
-        <p>go up</p>
-      </a>
-
     </main>
   </div>
+
+  <a href="#main-content" class="back-to-top" aria-label="Back to top">
+    <span>// back to top</span>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </a>
 
   <!-- PARTIAL - FOOTER -->
   <?php require __DIR__ . '/partials/footer.php'; ?>
 
   <!-- JavaScript -->
   <script src="lib/index.js"></script>
-  <script src="lib/partials.js"></script>
 
 </body>
 
