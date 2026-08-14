@@ -10,7 +10,7 @@
   </div>
   <a class="scroll-bar scroll-bar-intro" data-target="section1">
     <i class="fa-solid fa-arrow-down"></i>
-    <p>click to continue</p>
+    <p>scroll to explore</p>
   </a>
 
 </div>

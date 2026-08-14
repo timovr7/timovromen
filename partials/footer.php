@@ -10,6 +10,6 @@
     <a target="_blank" href="https://open.spotify.com/user/ceasarleeo?si=3b7930d933424de1" aria-label="Spotify"><i
         class="fa-brands fa-spotify"></i></a>
   </div>
-  <p class="mt-4 ps-5 pe-5">©️ 2025 Timo Vromen
+  <p class="mt-4 ps-5 pe-5">©️ 2026 Timo Vromen
   </p>
 </div>

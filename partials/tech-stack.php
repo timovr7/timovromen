@@ -19,8 +19,6 @@
         <span class="tech">Bootstrap</span>
         <span class="tech">Ruby</span>
         <span class="tech">Ruby on Rails</span>
-        <span class="tech">Vue.js</span>
-        <span class="tech">Stimulus</span>
         <span class="tech">Figma</span>
       </div>
     </div>

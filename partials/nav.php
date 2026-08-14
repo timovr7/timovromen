@@ -17,6 +17,7 @@
         <li><a href="/resume-nl.pdf" target="_blank" rel="noopener noreferrer" class="nav-link">/resume NL</a></li>
       </ul>
     </li>
-    <li class="nav-item"><a href="mailto:timovromen@gmail.com" class="nav-link">// connect</a></li>
+    <li class="nav-item"><a href="mailto:timovromen@gmail.com" class="nav-link">// connect
+        <i class="fa-regular fa-envelope"></i></a></li>
   </ul>
 </div>
