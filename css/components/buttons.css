@@ -6,23 +6,17 @@
 }
 
 .tech {
-  border: 0.1rem solid #342C33;
+  border: 0.1rem solid var(--color-dark);
   padding: 1rem 1.6rem;
-  box-shadow: 0.05rem 0.1rem 0 #342C33;
+  box-shadow: 0.05rem 0.1rem 0 var(--color-dark);
   border-radius: 1rem;
   gap: 1rem;
+  transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .tech:hover {
-  color: #1EDD88;
-}
-
-.button {
-  background-color: #f1c578;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
+  color: var(--color-dark);
+  border-color: var(--color-green-soft);
+  box-shadow: 0.2rem 0.25rem 0 var(--color-green-soft);
+  transform: translate(-2px, -2px);
 }
