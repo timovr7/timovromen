@@ -14,22 +14,30 @@
 @import url("index.css");
 
 
+/* ---------- Colours ----------- */
+:root {
+  --color-background: #F3FBF4;
+  --color-green: #14e956;
+  --color-green-soft: #1EDD88;
+  --color-dark: #342C33;
+  --color-red: #c12921;
+  --color-orange: #ffa101;
+  --color-gold: #f1c578;
+  --color-footer: #2c2b2b;
+  --color-grey: #6B6C6C;
+}
 
-/* ---------- General style ----------- */
+/* ---------- General styles ----------- */
 body {
   height: 100%;
-  background: #F3FBF4;
+  background: var(--color-background);
   font-family: 'Roboto Mono', sans-serif;
 }
 
-.main-content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.website-content {
-  margin-left: 20px;
-  margin-right: 20px;
+@media (max-width: 575.98px) {
+  #main-content {
+    --bs-gutter-x: 2rem;
+  }
 }
 
 p {
@@ -48,12 +56,4 @@ a {
 
 .end {
   justify-content: end;
-}
-
-/* ---------- Colors ----------- */
-html {
-  color: #14e956;
-  color: #c12921;
-  color: #1EDD88;
-  color: #ffa101;
 }

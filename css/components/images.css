@@ -1,13 +1,23 @@
 .logo {
   height: 20px;
 }
+
+#logo-zeno {
+  max-width: 150px;
+}
+
+#logo-vwd {
+  max-width: 120px;
+  margin-top: 20px;
+}
+
 .svg-icon {
   width: 20px;
 }
 
 .triplink-main {
   width: 100%;
-  border: 0.5px solid #ffa101;
+  border: 0.5px solid var(--color-orange);
 }
 
 .triplink-phone {

@@ -12,8 +12,8 @@
   right: -5px;
   bottom: -8px;
   height: 3px;
-  background: #1EDD88;
+  background: var(--color-green-soft);
   border-radius: 2px;
-  box-shadow: 0 0 12px 2px #1EDD88;
+  box-shadow: 0 0 12px 2px var(--color-green-soft);
   opacity: 0.6;
 }
