@@ -122,7 +122,7 @@
 
 
 /*  ---------- Projects Section  ---------- */
-.project-link {
+.project-link-freelance {
   --project-link-color: var(--color-green);
   display: flex;
   align-items: center;
@@ -130,11 +130,11 @@
   margin-top: 10px;
 }
 
-.project-link--zeno {
+.project-link-zeno {
   --project-link-color: var(--color-gold);
 }
 
-.project-link--bootcamp {
+.project-link-bootcamp {
   --project-link-color: var(--color-red);
 }
 

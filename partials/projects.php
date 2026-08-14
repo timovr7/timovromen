@@ -12,7 +12,7 @@
       <h4 class="mt-4">Freelance | Zoë van Ree</h4>
       <p class="mb-3">My first freelance project: a WordPress website for Zoë van Ree, built with Elementor Pro and
         custom code where needed, with a focus on easy content management.</p>
-      <div class="project-link project-link--freelance">
+      <div class="project-link project-link-freelance">
         <span>Visit website</span>
         <a href="https://zoevanree.nl/" target="_blank" rel="noopener noreferrer" aria-label="Website Zoë van Ree"><i
             class="fa-solid fa-globe" aria-hidden="true"></i></a>
@@ -25,7 +25,7 @@
       <p class="mb-3">PHP/Laravel website for Gerard de Nijs from the standard CMS template at Zeno,
         creating the client-specific page parts and frontend styling. I also developed custom CMS modules for projects
         and equipment, including the database structure, backend management and document handling.</p>
-      <div class="project-link project-link--zeno">
+      <div class="project-link project-link-zeno">
         <span>Visit website</span>
         <a href="https://gerarddenijs.nl/" target="_blank" rel="noopener noreferrer"
           aria-label="Website Gerard de Nijs"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
@@ -37,7 +37,7 @@
       <h4 class="mt-4">Zeno | Spiegelbeeld Werkt</h4>
       <p class="mb-3">For Spiegelbeeld Werkt, I translated an original design into a complete responsive PHP/Laravel
         website. The focus was on frontend implementation and getting the layout, styling and details right.</p>
-      <div class="project-link project-link--zeno">
+      <div class="project-link project-link-zeno">
         <span>Visit website</span>
         <a href="https://spiegelbeeldwerkt.nl/" target="_blank" rel="noopener noreferrer"
           aria-label="Website Spiegelbeeld Werkt"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
@@ -50,7 +50,7 @@
       <p class="mb-3">For Outdoorplanners, I developed custom CMS modules for brands and media, including the backend
         management and frontend page parts. I also worked on the responsive homepage, news section and Mapbox-powered
         contact page.</p>
-      <div class="project-link project-link--zeno">
+      <div class="project-link project-link-zeno">
         <span>Visit website</span>
         <a href="https://outdoorplanners.nl/" target="_blank" rel="noopener noreferrer"
           aria-label="Website Outdoorplanners"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
