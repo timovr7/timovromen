@@ -21,32 +21,32 @@
 .nav-link {
   text-decoration: none;
   color: black;
-  position: relative; /* Position relative for pseudo-element */
+  position: relative;
 }
 
 .nav-link:focus {
-  color: black; /* Change color on focus */
+  color: black;
 }
 
 .nav-link:hover {
-  color: black; /* Change color on hover */
+  color: black;
 }
 
 .nav-link::after {
-  content: ''; /* Empty content for pseudo-element */
-  position: absolute; /* Position pseudo-element absolutely */
-  width: 100%; /* Full width of parent element */
-  height: 2px; /* Height of the underline */
-  bottom: 0; /* Position at the bottom of the text */
-  left: 0; /* Start from the left */
-  background-color: var(--color-green); /* Color of the underline */
-  transform: scaleX(0); /* Initially hide the underline */
-  transform-origin: bottom left; /* Start animation from the left */
-  transition: transform 0.3s ease-out; /* Smooth transition effect */
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-green);
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out;
 }
 
 .nav-link:hover::after {
-  transform: scaleX(1); /* Expand underline on hover */
+  transform: scaleX(1); 
 }
 
 .has-submenu {
